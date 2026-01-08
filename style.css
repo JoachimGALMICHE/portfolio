@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
+    background: #FFC091;
     margin: 0;
 }
 
 header {
     background: #222;
-    color: white;
+    color: #FFC091;
     padding: 30px;
     text-align: center;
 }
@@ -16,7 +16,7 @@ section {
 }
 
 .projet {
-    background: white;
+    background: #FFC091;
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 8px;
