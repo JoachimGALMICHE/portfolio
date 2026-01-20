@@ -1,167 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio - Joachim GALMICHE</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Joachim GALMICHE</h1>
-        <p>Bachelor Développeur - 2ème année</p>
+      <h1>Joachim GALMICHE</h1>
+      <p>Bachelor Développeur - 2ème année</p>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#projets">Projets</a></li>
-            <li><a href="#competences">Compétences</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">☰</label>
+
+      <ul>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
     <section id="about">
-        <h2>À propos de moi</h2>
-        <div class="about-content">
-            <div class="profile-img">JD</div>
-            <div class="about-text">
-                <p>Passionné par le développement web et les nouvelles technologies, je suis actuellement en 2ème année de Bachelor Développeur. Mon objectif est de créer des expériences web innovantes et performantes.</p>
-                <p style="margin-top: 15px;">Je m'intéresse particulièrement au développement front-end et à la création d'interfaces utilisateur modernes et intuitives.</p>
-            </div>
+      <h2>À propos de moi</h2>
+      <div class="about-content">
+        <div class="profile-img">JD</div>
+        <div class="about-text">
+          <p>
+            Passionné par le développement web et les nouvelles technologies, je
+            suis actuellement en 2ème année de Bachelor Développeur. Mon
+            objectif est de créer des expériences web innovantes et
+            performantes.
+          </p>
+          <p style="margin-top: 15px">
+            Je m'intéresse particulièrement au développement front-end et à la
+            création d'interfaces utilisateur modernes et intuitives.
+          </p>
         </div>
+      </div>
     </section>
 
     <section id="projets">
-        <h2>Mes Projets</h2>
-        <div class="projets-grid">
-            <div class="projet">
-                <h3>💼 Projet MESI</h3>
-                <p>Site de publication de jeux rétro en ligne permettant aux joueurs de découvrir et partager des classiques du jeu vidéo.</p>
-                <p><strong>Technologies :</strong> HTML, CSS, JavaScript</p>
-                <p><strong>Fonctionnalités :</strong> Catalogue de jeux, système de recherche, interface responsive</p>
-                <a href="#">Voir le code</a>
-            </div>
-            
-            <div class="projet">
-                <h3>💼 Portfolio Personnel</h3>
-                <p>Développement de ce portfolio pour présenter mes compétences et projets de manière professionnelle.</p>
-                <p><strong>Technologies :</strong> HTML5, CSS3, JavaScript</p>
-                <p><strong>Fonctionnalités :</strong> Design moderne, animations fluides, responsive design</p>
-                <a href="#">Voir le code</a>
-            </div>
-            <div class="projet">
-                <h3>💼 Site de vente pokemon</h3>
-                <p>Creation d'un faux site de vente de carte pokemon prenant en compte les principe d'accesibilité.</p>
-                <p><strong>Technologies :</strong> HTML, CSS, JavaScript</p>
-                <p><strong>Fonctionnalités :</strong> catalogue de carte systeme de recherche Design moderne et accesible, animation non agressive,</p>
-                <a href="#">Voir le code</a>
-            </div>            
-            <div class="projet">
-                <h3> Projet à venir</h3>
-                <p>En cours de développement... Restez connecté pour découvrir mes prochaines réalisations !</p>
-                <p><strong>Technologies :</strong> À définir</p>
-                <a href="#" style="opacity: 0.6; cursor: not-allowed;">Bientôt disponible</a>
-            </div>
+      <h2>Mes Projets</h2>
+      <div class="projets-grid">
+        <div class="projet">
+          <h3>💼 Projet MESI</h3>
+          <p>
+            Site de publication de jeux rétro en ligne permettant aux joueurs de
+            découvrir et partager des classiques du jeu vidéo.
+          </p>
+          <p><strong>Technologies :</strong> HTML, CSS, JavaScript</p>
+          <p>
+            <strong>Fonctionnalités :</strong> Catalogue de jeux, système de
+            recherche, interface responsive
+          </p>
+          <a href="#">Voir le code</a>
         </div>
+
+        <div class="projet">
+          <h3>💼 Portfolio Personnel</h3>
+          <p>
+            Développement de ce portfolio pour présenter mes compétences et
+            projets de manière professionnelle.
+          </p>
+          <p><strong>Technologies :</strong> HTML5, CSS3, JavaScript</p>
+          <p>
+            <strong>Fonctionnalités :</strong> Design moderne, animations
+            fluides, responsive design
+          </p>
+          <a href="#">Voir le code</a>
+        </div>
+        <div class="projet">
+          <h3>💼 Site de vente pokemon</h3>
+          <p>
+            Creation d'un faux site de vente de carte pokemon prenant en compte
+            les principe d'accesibilité.
+          </p>
+          <p><strong>Technologies :</strong> HTML, CSS, JavaScript</p>
+          <p>
+            <strong>Fonctionnalités :</strong> catalogue de carte systeme de
+            recherche Design moderne et accesible, animation non agressive,
+          </p>
+          <a href="#">Voir le code</a>
+        </div>
+        <div class="projet">
+          <h3>Projet à venir</h3>
+          <p>
+            En cours de développement... Restez connecté pour découvrir mes
+            prochaines réalisations !
+          </p>
+          <p><strong>Technologies :</strong> À définir</p>
+          <a href="#" style="opacity: 0.6; cursor: not-allowed"
+            >Bientôt disponible</a
+          >
+        </div>
+      </div>
     </section>
 
     <section id="competences">
-        <h2>Compétences</h2>
-        <div class="competences-grid">
-            <div class="competence">
-                <i>💻</i>
-                <h3>HTML / CSS</h3>
-                <p>Maîtrise des standards web</p>
-            </div>
-            <div class="competence">
-                <i>💻</i>
-                <h3>JavaScript</h3>
-                <p>Développement interactif</p>
-            </div>
-            <div class="competence">
-                <i>💻</i>
-                <h3>Git / GitHub</h3>
-                <p>Gestion de versions</p>
-            </div>
-            <div class="competence">
-                <i>💻</i>
-                <h3>Responsive Design</h3>
-                <p>Interfaces adaptatives</p>
-            </div>
-            <div class="competence">
-                <i>💻</i>
-                <h3>UI/UX</h3>
-                <p>Design d'interfaces</p>
-            </div>
-            <div class="competence">
-                <i>💻</i>
-                <h3>PHP/MySQL</h3>
-                <p>programation php et mysql</p>
-            </div> 
-            <div class="competence">
-                <i>💻</i>
-                <h3>Java</h3>
-                <p>programation java</p>
-             </div> 
-            <div class="competence">
-                <i>💻</i>
-                <h3>Acces</h3>
-                <p>methode d'accesibilité handicap</p>                        
-            </div>
-            <div class="competence">
-                <i>💻</i>
-                <h3>Performance</h3>
-                <p>Optimisation web</p>
-            </div>
+      <h2>Compétences</h2>
+      <div class="competences-grid">
+        <div class="competence">
+          <i>💻</i>
+          <h3>HTML / CSS</h3>
+          <p>Maîtrise des standards web</p>
         </div>
+        <div class="competence">
+          <i>💻</i>
+          <h3>JavaScript</h3>
+          <p>Développement interactif</p>
+        </div>
+        <div class="competence">
+          <i>💻</i>
+          <h3>Git / GitHub</h3>
+          <p>Gestion de versions</p>
+        </div>
+        <div class="competence">
+          <i>💻</i>
+          <h3>Responsive Design</h3>
+          <p>Interfaces adaptatives</p>
+        </div>
+        <div class="competence">
+          <i>💻</i>
+          <h3>UI/UX</h3>
+          <p>Design d'interfaces</p>
+        </div>
+        <div class="competence">
+          <i>💻</i>
+          <h3>PHP/MySQL</h3>
+          <p>programation php et mysql</p>
+        </div>
+        <div class="competence">
+          <i>💻</i>
+          <h3>Java</h3>
+          <p>programation java</p>
+        </div>
+        <div class="competence">
+          <i>💻</i>
+          <h3>Acces</h3>
+          <p>methode d'accesibilité handicap</p>
+        </div>
+        <div class="competence">
+          <i>💻</i>
+          <h3>Performance</h3>
+          <p>Optimisation web</p>
+        </div>
+      </div>
     </section>
 
     <section id="contact">
-        <h2>Contactez-moi</h2>
-        <p style="text-align: center; font-size: 1.2em; margin-bottom: 30px;">
-            N'hésitez pas à me contacter pour discuter de vos projets ou d'opportunités de collaboration !
-        </p>
-        <div class="contact-info">
-            <a href="mailto:joachim.galmiche@hotmail.fr">📧 joachim.galmiche@hotmail.fr</a>
-            <a href="https://github.com" target="_blank">💻 GitHub</a>
-            <a href="https://linkedin.com" target="_blank">💼 LinkedIn</a>
-        </div>
+      <h2>Contactez-moi</h2>
+      <p style="text-align: center; font-size: 1.2em; margin-bottom: 30px">
+        N'hésitez pas à me contacter pour discuter de vos projets ou
+        d'opportunités de collaboration !
+      </p>
+      <div class="contact-info">
+        <a href="mailto:joachim.galmiche@hotmail.fr"
+          >📧 joachim.galmiche@hotmail.fr</a
+        >
+        <a href="https://github.com" target="_blank">💻 GitHub</a>
+        <a href="https://linkedin.com" target="_blank">💼 LinkedIn</a>
+      </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Joachim GALMICHE - Tous droits réservés</p>
-        <p style="margin-top: 10px; opacity: 0.8;">Développé avec passion 💜</p>
+      <p>&copy; 2026 Joachim GALMICHE - Tous droits réservés</p>
+      <p style="margin-top: 10px; opacity: 0.8">Développé avec passion 💜</p>
     </footer>
 
-    <script>
-        // Animation au scroll
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.animation = 'fadeIn 1s ease';
-                }
-            });
-        });
-
-        document.querySelectorAll('section').forEach(section => {
-            observer.observe(section);
-        });
-
-        // Smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-    </script>
-</body>
+    <script src="/script.js"></script>
+  </body>
 </html>
